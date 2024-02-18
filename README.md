@@ -1,4 +1,4 @@
-# React + Vite
+# Todo List
 
 Hello guys i made this simple todo list in React. Please do following steps, to run this project.
 
