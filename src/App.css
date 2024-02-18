@@ -1,0 +1,11 @@
+.body{
+  width: 350px;
+  padding: 20px;
+  margin: 100px auto;
+  background: #fff;
+  position: relative;
+}
+
+.flex{
+  display: flex;
+}

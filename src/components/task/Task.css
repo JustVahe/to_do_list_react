@@ -1,0 +1,77 @@
+/* #2CE1C9 */
+
+.task{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.task *{
+    transition: 0.2s;
+}
+
+.task .task-left{
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task .task-left .delete-btn{
+    color: #646775;
+    display: block;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+}
+
+.task .task-left .delete-btn svg{
+    display: block;
+}
+
+.task:hover .task-left .delete-btn{
+    opacity: 1;
+}
+
+.task .task-left .delete-btn:hover {
+    background: #ddd;
+}
+
+.task .task-btn{
+    display: block;
+    border: none;
+    padding: 5px;
+    background: transparent;
+    border-radius: 10px;
+    border: 3px solid #F0EFE9;
+}
+
+.task .task-btn svg{
+    color: #646775;
+    display: block;
+}
+
+.task:hover .task-body, .task:hover .task-btn svg{
+    color: #2BA4DA;
+}
+
+.task:hover .task-btn{
+    border-color: #2BA4DA;
+}
+
+.finished .task-body{
+    color: #BDBDBD;
+    text-decoration: line-through;
+}
+
+.finished .task-btn{
+    border-color: #2CE1C9;
+}
+
+.finished .task-btn svg{
+    color: #2CE1C9;
+}
+

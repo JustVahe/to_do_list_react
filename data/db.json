@@ -1,0 +1,14 @@
+{
+  "tasks": [
+    {
+      "taskBody": "Get a new SIM card",
+      "isFinished": true,
+      "id": 0
+    },
+    {
+      "taskBody": "Go to the consultation",
+      "isFinished": false,
+      "id": 1
+    }
+  ]
+}
